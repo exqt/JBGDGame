@@ -1,0 +1,18 @@
+.PlayerProfileContent {
+    flex-grow: 1;
+    -unity-text-align: upper-center;
+    background-color: rgb(79, 79, 79);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+
+    transition-property: background-color;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out-back;
+}
+
+.PlayerProfileContent:hover {
+    background-color: rgb(100, 100, 100);
+}
+

@@ -1,0 +1,8 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Common/UIPopupWindow.uss?fileID=7433441132597879392&amp;guid=a55c99512f8da0d4183de4e33942d7b2&amp;type=3#UIPopupWindow" />
+    <InGamePopupWindow style="flex-grow: 1;">
+        <engine:ScrollView style="flex-wrap: nowrap; min-height: auto; max-height: 350px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
+            <engine:Label text="&lt;size=16px&gt;턴 진행&lt;/size&gt;&#10;1. 덱에서 한 장을 뽑거나 다른 사람이 버린 카드들 중 제일 위에 있는 카드를 가져옵니다.&#10;2. 손에서 길이가 5인 등차 수열을 만들었다면 &quot;쯔모&quot; 로 승리 선언을 할 수 있습니다.&#10;3. 손에서 카드를 한 장 본인 앞에 버립니다.&#10;4. 다른 사람이 방금 버린 카드를 사용하여 길이가 5인 등차 수열을 만들 수 있다면 그 사람은 &quot;론&quot; 으로 승리 선언할 수 있습니다.&#10;" name="Text" style="border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; background-color: rgb(209, 209, 209); margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 8px; padding-right: 8px; padding-bottom: 8px; padding-left: 8px; max-height: none; min-height: auto; flex-wrap: nowrap; min-width: auto; height: auto; white-space: normal; text-overflow: clip; -unity-text-align: upper-left;" />
+        </engine:ScrollView>
+    </InGamePopupWindow>
+</engine:UXML>

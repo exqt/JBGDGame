@@ -1,0 +1,29 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Main/UISettings.uss?fileID=7433441132597879392&amp;guid=d7b0a4a307c0f124490b5af2867d819e&amp;type=3#UISettings" />
+    <Style src="project://database/Assets/UI/Common/UIPopupWindow.uss?fileID=7433441132597879392&amp;guid=a55c99512f8da0d4183de4e33942d7b2&amp;type=3#UIPopupWindow" />
+    <InGamePopupWindow style="flex-grow: 1;">
+        <engine:VisualElement style="flex-grow: 0; flex-direction: row;">
+            <engine:SliderInt label="Volume" value="42" high-value="100" name="VolumeSlider" data-source-path="volume" fill="true" inverted="false" style="flex-grow: 1;">
+                <Bindings>
+                    <engine:DataBinding property="value" data-source-path="volume" data-source="project://database/Assets/Resources/GameSettings.asset?fileID=11400000&amp;guid=ef7830dee1746314a849abbf88c0b8f9&amp;type=2#GameSettings" binding-mode="TwoWay" />
+                </Bindings>
+            </engine:SliderInt>
+            <engine:IntegerField value="42" hide-placeholder-on-focus="true" data-source-path="volume" readonly="true" style="width: 60px; -unity-text-align: middle-center;">
+                <Bindings>
+                    <engine:DataBinding property="value" data-source-path="volume" data-source="project://database/Assets/Resources/GameSettings.asset?fileID=11400000&amp;guid=ef7830dee1746314a849abbf88c0b8f9&amp;type=2#GameSettings" binding-mode="TwoWay" />
+                </Bindings>
+            </engine:IntegerField>
+        </engine:VisualElement>
+        <engine:VisualElement style="flex-grow: 0; flex-direction: row; align-self: auto; justify-content: space-between; align-content: auto; align-items: center;">
+            <engine:Label text="Language" style="align-self: center; padding-left: 6px;">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:6f7627e6db453f543a146bf003bb6b01" entry="Id(424923212083200)" />
+                </Bindings>
+            </engine:Label>
+            <engine:VisualElement name="LocalizationButtons" style="flex-grow: 0; flex-direction: row; align-self: auto; justify-content: center;">
+                <engine:VisualElement name="En" class="Flag" />
+                <engine:VisualElement name="Ko" class="Flag" style="background-image: url(&quot;project://database/Assets/Sprites/Flags/ko.png?fileID=2800000&amp;guid=78f48564a5218c649bf2dbc862a52db3&amp;type=3#ko&quot;); width: 64px; height: 64px;" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </InGamePopupWindow>
+</engine:UXML>

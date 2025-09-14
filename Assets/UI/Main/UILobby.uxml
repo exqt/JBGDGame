@@ -1,0 +1,36 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Template name="UserProfile" src="project://database/Assets/UI/Main/UIPlayerProfile.uxml?fileID=9197481963319205126&amp;guid=f843525851104ca4da2f440a967f8271&amp;type=3#UIPlayerProfile" />
+    <Style src="project://database/Assets/UI/Main/UILobby.uss?fileID=7433441132597879392&amp;guid=b34b49fcc0440e846ae5e62c3a95f171&amp;type=3#UILobby" />
+    <engine:VisualElement name="Root" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.5); align-items: center; justify-content: center; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/NanumGothicBold.ttf?fileID=12800000&amp;guid=8437f3e0632a09c4082607640336ade5&amp;type=3#NanumGothicBold&quot;);">
+        <engine:VisualElement name="Content" style="flex-grow: 1; background-color: rgba(82, 255, 0, 0.36); width: 1114px; height: 50%; -unity-text-align: upper-left; flex-direction: row; align-items: center; justify-content: center;">
+            <engine:VisualElement name="GameProfile" style="flex-grow: 0; background-color: rgba(209, 25, 25, 0.57); align-self: stretch; width: 268px; justify-content: center;">
+                <engine:DropdownField name="GameList" choices="TEST,TEST" index="0" style="-unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/NanumGothicBold.ttf?fileID=12800000&amp;guid=8437f3e0632a09c4082607640336ade5&amp;type=3#NanumGothicBold&quot;); -unity-text-align: upper-right;" />
+                <engine:VisualElement name="GamePreviewImage" style="flex-grow: 0; height: 300px; position: relative; background-image: url(&quot;project://database/Assets/Sprites/NumberMahjongProfile.png?fileID=2800000&amp;guid=1af087d43790c364abf711914091f3f6&amp;type=3#NumberMahjongProfile&quot;);" />
+                <engine:Label text="&lt;게임 이름&gt;" name="GameName" style="-unity-text-align: upper-center;" />
+                <engine:Label text="게임 설명 게임 설명 게임 설명 게임 설명 게임 설명게임 설명 게임 설명 게임 설명 게임 설명 게임 설명게임 설명 게임 설명 게임 설명 게임 설명 게임 설명" name="GameDescription" style="-unity-text-align: upper-center; width: 100%; flex-wrap: nowrap; white-space: normal; height: 67px; text-overflow: clip; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/NanumGothicBold.ttf?fileID=12800000&amp;guid=8437f3e0632a09c4082607640336ade5&amp;type=3#NanumGothicBold&quot;);" />
+                <engine:VisualElement name="VisualElement" style="flex-grow: 0; flex-direction: row; align-self: auto; align-content: auto; align-items: auto; bottom: 0; position: absolute; width: 100%; justify-content: space-evenly;">
+                    <engine:Button text="Guide" name="GuideButton" style="align-self: stretch; flex-grow: 0; align-items: auto; width: 45%;">
+                        <Bindings>
+                            <UnityEngine.Localization.LocalizedString property="text" table="GUID:6f7627e6db453f543a146bf003bb6b01" entry="Id(1106062192996352)" />
+                        </Bindings>
+                    </engine:Button>
+                    <engine:Button text="Read Cartoon" name="ReadCartoonButton" style="flex-grow: 0; align-items: auto; align-self: auto; width: 45%;">
+                        <Bindings>
+                            <UnityEngine.Localization.LocalizedString property="text" table="GUID:6f7627e6db453f543a146bf003bb6b01" entry="Id(1084616695672832)" />
+                        </Bindings>
+                    </engine:Button>
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement name="PlayerProfileContainer" style="flex-grow: 1; flex-direction: row; padding-top: 4px; padding-right: 4px; padding-bottom: 4px; padding-left: 4px; justify-content: center; align-self: stretch;">
+                <engine:Instance template="UserProfile" style="width: 200px;" />
+                <engine:Instance template="UserProfile" style="width: 200px;" />
+                <engine:Instance template="UserProfile" style="width: 200px;" />
+                <engine:Instance template="UserProfile" style="width: 200px;" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="Footer" style="flex-grow: 0; height: 64px; background-color: rgba(197, 197, 197, 0.93); width: 100%; flex-direction: row; justify-content: space-between; padding-right: 16px; padding-left: 16px;">
+            <engine:Button text="Leave" name="LeaveButton" class="Button" style="align-items: stretch; flex-direction: column; justify-content: flex-end;" />
+            <engine:Button text="Start&#10;" name="StartButton" class="Button" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

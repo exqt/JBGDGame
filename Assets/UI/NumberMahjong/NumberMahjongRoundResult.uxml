@@ -1,0 +1,75 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Template name="NumberMahjongRoundResultPlayer" src="project://database/Assets/UI/NumberMahjong/NumberMahjongRoundResultPlayer.uxml?fileID=9197481963319205126&amp;guid=17c274274ad316d41842223c9f64cdcb&amp;type=3#NumberMahjongRoundResultPlayer" />
+    <engine:Template name="NumberMahjongCardContainer" src="project://database/Assets/UI/NumberMahjong/NumberMahjongCardContainer.uxml?fileID=9197481963319205126&amp;guid=86bdc08574b6ffd4ba1b1184c857bbd8&amp;type=3#NumberMahjongCardContainer" />
+    <engine:VisualElement name="root" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.74); align-self: auto; align-items: center; justify-content: center; padding-right: 0; padding-left: 0;">
+        <engine:VisualElement name="Wrapper" style="flex-grow: 1; justify-content: center;">
+            <Shadow shadow-corner-radius="14" shadow-scale="1.01" shadow-offset-x="5" shadow-offset-y="10" shadow-color="#00000091">
+                <engine:VisualElement style="flex-grow: 0; height: 64px; background-color: rgba(255, 255, 255, 0.53); border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; margin-bottom: 12px;">
+                    <engine:Label text="Round 1-1 Result" name="Title" style="font-size: 42px; -unity-text-align: upper-center;">
+                        <Bindings>
+                            <UnityEngine.Localization.LocalizedString property="text" table="GUID:6f7627e6db453f543a146bf003bb6b01" entry="Id(4664862485311488)">
+                                <variables>
+                                    <UnityEngine.Localization.LocalVariable name="roundIndex" text="Round 1-1 Result" style="font-size: 42px; -unity-text-align: upper-center;">
+                                        <UnityEngine.Localization.SmartFormat.PersistentVariables.IntVariable />
+                                    </UnityEngine.Localization.LocalVariable>
+                                    <UnityEngine.Localization.LocalVariable name="roundExtensionCount" text="Round 1-1 Result" style="font-size: 42px; -unity-text-align: upper-center;">
+                                        <UnityEngine.Localization.SmartFormat.PersistentVariables.IntVariable />
+                                    </UnityEngine.Localization.LocalVariable>
+                                </variables>
+                            </UnityEngine.Localization.LocalizedString>
+                        </Bindings>
+                    </engine:Label>
+                </engine:VisualElement>
+            </Shadow>
+            <Shadow shadow-scale="1.01" shadow-offset-x="5" shadow-offset-y="10" shadow-corner-radius="14" shadow-color="#00000091" name="ContentShadow">
+                <engine:VisualElement name="Content" style="flex-grow: 0; background-color: rgba(255, 255, 255, 0.53); width: 900px; height: 474px; padding-top: 8px; padding-right: 8px; padding-bottom: 8px; padding-left: 8px; border-top-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px; border-bottom-left-radius: 12px;">
+                    <engine:VisualElement name="GridRow" style="flex-grow: 1; flex-direction: row; flex-shrink: 0; height: 150px;">
+                        <engine:VisualElement style="flex-grow: 1; width: 300px;">
+                            <engine:VisualElement name="Arrow12" style="flex-grow: 1; flex-direction: column; width: 100%; background-image: url(&quot;project://database/Assets/Sprites/UI/NumberMahjong/ResultArrowCW.png?fileID=2800000&amp;guid=4446c5369dfee644785c8889089cdc7a&amp;type=3#ResultArrowCW&quot;); scale: 1 1; position: absolute; height: 100%; visibility: visible; display: flex;" />
+                            <engine:VisualElement name="Arrow21" style="flex-grow: 1; flex-direction: column; width: 100%; background-image: url(&quot;project://database/Assets/Sprites/UI/NumberMahjong/ResultArrowCCW.png?fileID=2800000&amp;guid=3f8c280bd120d474fbbb0c7220a0feb2&amp;type=3#ResultArrowCCW&quot;); scale: 1 1; position: absolute; height: 100%;" />
+                        </engine:VisualElement>
+                        <engine:VisualElement style="flex-grow: 1; width: 300px;">
+                            <engine:Instance template="NumberMahjongRoundResultPlayer" name="Player2" style="flex-grow: 1;" />
+                            <engine:Instance template="NumberMahjongCardContainer" name="Player2Cards" style="align-items: center;" />
+                        </engine:VisualElement>
+                        <engine:VisualElement style="flex-grow: 1; width: 300px;">
+                            <engine:VisualElement name="Arrow32" style="flex-grow: 1; flex-direction: column; width: 100%; background-image: url(&quot;project://database/Assets/Sprites/UI/NumberMahjong/ResultArrowCW.png?fileID=2800000&amp;guid=4446c5369dfee644785c8889089cdc7a&amp;type=3#ResultArrowCW&quot;); scale: -1 1; position: absolute; height: 100%;" />
+                            <engine:VisualElement name="Arrow23" style="flex-grow: 1; flex-direction: column; width: 100%; background-image: url(&quot;project://database/Assets/Sprites/UI/NumberMahjong/ResultArrowCCW.png?fileID=2800000&amp;guid=3f8c280bd120d474fbbb0c7220a0feb2&amp;type=3#ResultArrowCCW&quot;); scale: -1 1; position: absolute; height: 100%; visibility: visible;" />
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                    <engine:VisualElement name="GridRow" style="flex-grow: 1; flex-direction: row; flex-shrink: 0; height: 150px;">
+                        <engine:VisualElement style="flex-grow: 1; width: 300px;">
+                            <engine:Instance template="NumberMahjongRoundResultPlayer" name="Player1" style="flex-grow: 1; flex-shrink: 1;" />
+                            <engine:Instance template="NumberMahjongCardContainer" name="Player1Cards" style="align-items: center;" />
+                        </engine:VisualElement>
+                        <engine:VisualElement style="flex-grow: 1; flex-shrink: 1; width: 300px;">
+                            <engine:VisualElement name="Arrow20" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Sprites/UI/NumberMahjong/ResultArrowVertical.png?fileID=2800000&amp;guid=1a3aa90d7da1baf45a368577f8e6b771&amp;type=3#ResultArrowVertical&quot;); position: absolute; width: 100%; height: 100%; visibility: hidden;" />
+                            <engine:VisualElement name="Arrow13" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Sprites/UI/NumberMahjong/ResultArrowHorizonal.png?fileID=2800000&amp;guid=bbeee7b3075d43e4f9d1533839b49931&amp;type=3#ResultArrowHorizonal&quot;); position: absolute; flex-shrink: 0; width: 100%; height: 100%; visibility: hidden;" />
+                            <engine:VisualElement name="Arrow02" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Sprites/UI/NumberMahjong/ResultArrowVertical.png?fileID=2800000&amp;guid=1a3aa90d7da1baf45a368577f8e6b771&amp;type=3#ResultArrowVertical&quot;); position: absolute; width: 100%; height: 100%; scale: 1 -1; visibility: visible;" />
+                            <engine:VisualElement name="Arrow31" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Sprites/UI/NumberMahjong/ResultArrowHorizonal.png?fileID=2800000&amp;guid=bbeee7b3075d43e4f9d1533839b49931&amp;type=3#ResultArrowHorizonal&quot;); position: absolute; flex-shrink: 0; width: 100%; height: 100%; scale: -1 1; visibility: hidden;" />
+                        </engine:VisualElement>
+                        <engine:VisualElement style="flex-grow: 1; width: 300px;">
+                            <engine:Instance template="NumberMahjongRoundResultPlayer" name="Player3" style="flex-grow: 1;" />
+                            <engine:Instance template="NumberMahjongCardContainer" name="Player3Cards" style="align-items: center;" />
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                    <engine:VisualElement name="GridRow" style="flex-grow: 1; flex-direction: row; flex-shrink: 0; height: 150px;">
+                        <engine:VisualElement style="flex-grow: 1; width: 300px;">
+                            <engine:VisualElement name="Arrow10" style="flex-grow: 1; flex-direction: column; width: 100%; background-image: url(&quot;project://database/Assets/Sprites/UI/NumberMahjong/ResultArrowCW.png?fileID=2800000&amp;guid=4446c5369dfee644785c8889089cdc7a&amp;type=3#ResultArrowCW&quot;); scale: 1 -1; position: absolute; height: 100%; visibility: visible;" />
+                            <engine:VisualElement name="Arrow01" style="flex-grow: 1; flex-direction: column; width: 100%; background-image: url(&quot;project://database/Assets/Sprites/UI/NumberMahjong/ResultArrowCCW.png?fileID=2800000&amp;guid=3f8c280bd120d474fbbb0c7220a0feb2&amp;type=3#ResultArrowCCW&quot;); scale: 1 -1; position: absolute; height: 100%; visibility: visible;" />
+                        </engine:VisualElement>
+                        <engine:VisualElement style="flex-grow: 1; width: 300px;">
+                            <engine:Instance template="NumberMahjongRoundResultPlayer" name="Player0" style="flex-grow: 1;" />
+                            <engine:Instance template="NumberMahjongCardContainer" name="Player0Cards" style="align-items: center;" />
+                        </engine:VisualElement>
+                        <engine:VisualElement style="flex-grow: 1; width: 300px;">
+                            <engine:VisualElement name="Arrow30" style="flex-grow: 1; flex-direction: column; width: 100%; background-image: url(&quot;project://database/Assets/Sprites/UI/NumberMahjong/ResultArrowCW.png?fileID=2800000&amp;guid=4446c5369dfee644785c8889089cdc7a&amp;type=3#ResultArrowCW&quot;); scale: -1 -1; position: absolute; height: 100%; visibility: visible;" />
+                            <engine:VisualElement name="Arrow03" style="flex-grow: 1; flex-direction: column; width: 100%; background-image: url(&quot;project://database/Assets/Sprites/UI/NumberMahjong/ResultArrowCCW.png?fileID=2800000&amp;guid=3f8c280bd120d474fbbb0c7220a0feb2&amp;type=3#ResultArrowCCW&quot;); scale: -1 -1; position: absolute; height: 100%;" />
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                </engine:VisualElement>
+            </Shadow>
+            <engine:Button text="확인" name="OkButton" style="align-self: flex-end; align-items: auto; width: 90px; height: 60px; font-size: 28px;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,167 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/NumberMahjong/NumberMahjongCardCounter.uss?fileID=7433441132597879392&amp;guid=4a2c96731d6b82d45ad841b0e78952ca&amp;type=3#NumberMahjongCardCounter" />
+    <engine:VisualElement name="Root" style="flex-grow: 1; display: flex; visibility: visible;">
+        <engine:VisualElement name="RoundInfoPanel" style="flex-grow: 1; position: absolute; top: 8px; left: 8px; background-color: rgba(0, 0, 0, 0.79); width: 200px; height: auto; border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; padding-top: 8px; padding-right: 8px; padding-bottom: 8px; padding-left: 8px;">
+            <engine:Label text="Round: 1-4" name="RoundLabel" class="InfoPanelItem" />
+            <engine:Label text="Turn: ?" name="TurnLabel" class="InfoPanelItem" style="color: rgb(255, 255, 255);" />
+        </engine:VisualElement>
+        <engine:VisualElement name="SidePanel" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-self: flex-end; width: 200px; height: 100%; align-items: center; justify-content: center;">
+            <engine:VisualElement name="CardCountContainer" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0.39); border-top-left-radius: 8px; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 8px; align-items: flex-start; flex-direction: row; flex-wrap: wrap; justify-content: center; align-self: flex-end; align-content: flex-start; right: auto; bottom: auto; position: relative; margin-right: 0; margin-top: 4px; margin-bottom: 4px; margin-left: 4px; width: 155px; padding-top: 4px; padding-right: 4px; padding-bottom: 4px; padding-left: 4px; top: auto;">
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Card" class="CardCount">
+                    <engine:Label text="99" name="Number" class="CardCountText" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="DeclareWinPanel" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.78); position: absolute; width: 160px; height: 81px; top: auto; left: auto; flex-direction: row; align-self: stretch; align-content: center; justify-content: space-evenly; align-items: stretch; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 16px; padding-right: 16px; padding-bottom: 16px; padding-left: 16px; right: 200px; border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; bottom: 200px;">
+            <engine:Button text="Win" name="WinButton" style="align-self: auto; flex-grow: 0; align-content: auto; width: 50%; background-color: rgb(119, 154, 255); border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px;" />
+            <engine:Button text="Pass" name="PassButton" style="flex-grow: 0; width: 50%; background-color: rgb(226, 99, 121); border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

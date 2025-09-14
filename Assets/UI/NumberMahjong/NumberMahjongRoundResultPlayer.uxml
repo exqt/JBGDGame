@@ -1,0 +1,15 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement name="root" style="flex-grow: 1; flex-direction: row; background-color: rgba(0, 0, 0, 0.18); border-top-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px; border-bottom-left-radius: 12px; margin-top: 4px; margin-right: 4px; margin-bottom: 4px; margin-left: 4px;">
+        <engine:VisualElement name="LeftSide" style="flex-grow: 0; width: 120px;">
+            <engine:VisualElement name="PlayerImage" style="flex-grow: 1; width: 100%; height: 100%; background-image: url(&quot;project://database/Assets/Sprites/rigo.png?fileID=2800000&amp;guid=56fab884932d0a84185d7a988a2fe2dc&amp;type=3#rigo&quot;); align-self: auto;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="RightSide" style="flex-grow: 1; align-items: flex-start; align-self: auto; padding-top: 8px; padding-right: 8px; padding-bottom: 8px; padding-left: 8px;">
+            <engine:Label text="#1" name="Ranking" style="font-size: 20px; background-color: rgba(255, 255, 255, 0.53); padding-right: 12px; padding-left: 12px; padding-top: 4px; padding-bottom: 4px; border-top-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px; border-bottom-left-radius: 12px; position: relative; align-items: stretch; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/SpaceMono-Bold.ttf?fileID=12800000&amp;guid=ce67617f4fa057f49b562fc754c5deae&amp;type=3#SpaceMono-Bold&quot;);" />
+            <engine:Label text="한글이름은최" name="PlayerName" style="font-size: 24px; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/NanumGothicBold.ttf?fileID=12800000&amp;guid=8437f3e0632a09c4082607640336ade5&amp;type=3#NanumGothicBold&quot;); text-overflow: ellipsis;" />
+            <engine:VisualElement name="ScoreGroup" style="flex-grow: 1; flex-direction: row; font-size: 12px;">
+                <engine:Label text="987 Pts" name="CurrentScore" style="font-size: 18px; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/SpaceMono-Bold.ttf?fileID=12800000&amp;guid=ce67617f4fa057f49b562fc754c5deae&amp;type=3#SpaceMono-Bold&quot;);" />
+                <engine:Label text="(+123)" name="ScoreChange" style="font-size: 18px; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/SpaceMono-Bold.ttf?fileID=12800000&amp;guid=ce67617f4fa057f49b562fc754c5deae&amp;type=3#SpaceMono-Bold&quot;);" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

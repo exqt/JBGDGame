@@ -1,0 +1,15 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Main/UIPlayerProfile.uss?fileID=7433441132597879392&amp;guid=05d59fb4e6a806741978f2b7ea5363d0&amp;type=3#UIPlayerProfile" />
+    <engine:VisualElement name="PlayerProfile" style="flex-grow: 1; align-items: stretch; flex-direction: row; justify-content: center; align-self: stretch; width: auto;">
+        <engine:VisualElement name="Active" class="PlayerProfileContent">
+            <engine:Label text="마도&#10;" name="CharName" style="color: rgb(255, 255, 255); font-size: 18px;" />
+            <engine:VisualElement name="CharImage" style="flex-grow: 0; background-color: rgba(82, 82, 82, 0.65); width: 200px; background-image: url(&quot;project://database/Assets/Sprites/mado.png?fileID=2800000&amp;guid=10d6d7d41e6c2074d9edf617acdad644&amp;type=3#mado&quot;); flex-shrink: 0; height: 250px;" />
+            <engine:Label text="유저 이름" name="PlayerName" style="font-size: 18px; color: rgb(255, 255, 255);" />
+            <engine:Button text="- Delete" name="RemoveButton" />
+        </engine:VisualElement>
+        <engine:VisualElement name="Inactive" class="PlayerProfileContent" style="flex-grow: 1; -unity-text-align: upper-center; background-color: rgb(22, 22, 22); align-items: center; justify-content: center; height: auto; display: none; width: 100%;">
+            <engine:Label text="Empty" style="font-size: 18px; color: rgb(255, 255, 255);" />
+            <engine:Button text="+ Add AI" name="AddButton" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,10 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Main/UILobbyItem.uss?fileID=7433441132597879392&amp;guid=6bdf6421469b21f47837b2b470c0bd09&amp;type=3#UILobbyItem" />
+    <engine:VisualElement name="LobbyItem" class="LobbyItem">
+        <engine:Label text="방 제목&#10;" name="LobbyName" />
+        <engine:VisualElement style="flex-grow: 1; flex-direction: row; justify-content: flex-end; align-items: flex-end;">
+            <engine:Label text="게임 이름&#10;" name="GameName" />
+            <engine:Label text="0 / 4" name="NumberOfPlayers" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

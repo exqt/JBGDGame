@@ -1,0 +1,11 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Common/UIPopupWindow.uss?fileID=7433441132597879392&amp;guid=a55c99512f8da0d4183de4e33942d7b2&amp;type=3#UIPopupWindow" />
+    <engine:VisualElement name="Root" class="Root">
+        <Shadow shadow-corner-radius="18" shadow-scale="1" shadow-offset-x="8" shadow-offset-y="10" class="Shadow" style="transition-property: translate; transition-duration: 0.4s; transition-timing-function: ease-in-out-back; transition-delay: 0s;">
+            <engine:VisualElement name="Window" class="Window" style="height: auto; background-color: rgb(238, 238, 238);">
+                <engine:Button text="X" name="CloseButton" style="flex-direction: column; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; width: 32px; height: 32px; border-top-left-radius: 16px; border-top-right-radius: 16px; border-bottom-right-radius: 16px; border-bottom-left-radius: 16px; position: absolute; top: -8px; right: -8px;" />
+                <engine:VisualElement name="Content" style="flex-grow: 1; margin-top: 16px;" />
+            </engine:VisualElement>
+        </Shadow>
+    </engine:VisualElement>
+</engine:UXML>

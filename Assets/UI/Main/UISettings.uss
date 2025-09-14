@@ -1,0 +1,7 @@
+.Flag {
+    width: 64px;
+    height: 64px;
+    background-image: url("project://database/Assets/Sprites/Flags/en.png?fileID=2800000&guid=5e38ac507f1fe2b47a1f63c65d5cacd2&type=3#en");
+    padding-left: 0;
+    margin-left: 8px;
+}

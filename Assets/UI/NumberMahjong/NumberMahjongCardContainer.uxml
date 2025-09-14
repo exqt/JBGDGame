@@ -1,0 +1,11 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Template name="NumberMahjongCard" src="project://database/Assets/UI/NumberMahjong/NumberMahjongCard.uxml?fileID=9197481963319205126&amp;guid=b8f6709c415124449bbf7ec51da9f0b7&amp;type=3#NumberMahjongCard" />
+    <engine:VisualElement name="CardContainer" style="flex-grow: 1; position: absolute; bottom: -24px; flex-direction: row;">
+        <engine:Instance template="NumberMahjongCard" />
+        <engine:Instance template="NumberMahjongCard" />
+        <engine:Instance template="NumberMahjongCard" />
+        <engine:Instance template="NumberMahjongCard" />
+        <engine:Instance template="NumberMahjongCard" />
+        <engine:Instance template="NumberMahjongCard" />
+    </engine:VisualElement>
+</engine:UXML>

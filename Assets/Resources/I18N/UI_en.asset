@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 6f7627e6db453f543a146bf003bb6b01, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 7109677561958105852
+  m_TableData:
+  - m_Id: 1228576452608
+    m_Localized: Single Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12935071854592
+    m_Localized: Create Lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 418447219290112
+    m_Localized: Lobby List
+    m_Metadata:
+      m_Items: []
+  - m_Id: 418725301645312
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 418852674269184
+    m_Localized: Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 424923212083200
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1077137198870528
+    m_Localized: Number Mahjong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1079671774834688
+    m_Localized: 'Simplified version of Richii Mahjong
+
+      Collect number cards
+      forms Arithmetic progression with length 5'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1084616695672832
+    m_Localized: Read Cartoon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1106062192996352
+    m_Localized: Guide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1691746352033792
+    m_Localized: Mado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1691918746316800
+    m_Localized: Rigo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1692173390901248
+    m_Localized: Sina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1692215480741888
+    m_Localized: Jiman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1692271378231296
+    m_Localized: Player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4664862485311488
+    m_Localized: Round {roundIndex}-{roundExtensionCount} Result
+    m_Metadata:
+      m_Items:
+      - rid: 7109677561958105852
+  - m_Id: 4794595088855040
+    m_Localized: tsumo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4794649883242496
+    m_Localized: ron
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4796586129158144
+    m_Localized: pass
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 7109677561958105852
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 
+        m_SharedEntries:
+        - id: 4664862485311488

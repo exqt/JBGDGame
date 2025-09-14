@@ -1,0 +1,36 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Main/UIMain.uss?fileID=7433441132597879392&amp;guid=7ec4d3b4f43c953478437e471ac17e86&amp;type=3#UIMain" />
+    <engine:VisualElement name="Root" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.5); align-items: center; justify-content: center;">
+        <engine:VisualElement name="Content" style="flex-grow: 1; background-color: rgba(82, 255, 0, 0.36); width: 500px; height: auto; -unity-text-align: upper-left; flex-direction: column; align-items: center; justify-content: center;">
+            <engine:Label name="Logo" style="background-image: url(&quot;project://database/Assets/Sprites/logo.png?fileID=2800000&amp;guid=6aa95863ea44cbc4d8debe78ba1968ed&amp;type=3#logo&quot;); height: 229px; width: 247px;" />
+            <engine:VisualElement name="MenuContainer" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0.37); width: 50%; height: auto; border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; padding-top: 16px; padding-right: 16px; padding-bottom: 16px; padding-left: 16px; margin-top: 16px; margin-right: 16px; margin-bottom: 16px; margin-left: 16px;">
+                <engine:Button text="Single Play" name="SingleButton" class="MainButton">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:6f7627e6db453f543a146bf003bb6b01" entry="Id(1228576452608)" />
+                    </Bindings>
+                </engine:Button>
+                <engine:Button text="Create Lobby" name="HostButton" class="MainButton">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:6f7627e6db453f543a146bf003bb6b01" entry="Id(12935071854592)" />
+                    </Bindings>
+                </engine:Button>
+                <engine:Button text="Lobby List" name="JoinButton" class="MainButton">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:6f7627e6db453f543a146bf003bb6b01" entry="Id(418447219290112)" />
+                    </Bindings>
+                </engine:Button>
+                <engine:Button text="Settings" name="SettingsButton" class="MainButton">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:6f7627e6db453f543a146bf003bb6b01" entry="Id(418725301645312)" />
+                    </Bindings>
+                </engine:Button>
+                <engine:Button text="Quit" name="QuitButton" class="MainButton">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:6f7627e6db453f543a146bf003bb6b01" entry="Id(418852674269184)" />
+                    </Bindings>
+                </engine:Button>
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+    <engine:Label text="Label" style="align-items: auto; align-self: auto; -unity-text-align: upper-right;" />
+</engine:UXML>

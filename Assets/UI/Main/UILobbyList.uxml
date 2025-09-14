@@ -1,0 +1,16 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Template name="UILobbyItem" src="project://database/Assets/UI/Main/UILobbyItem.uxml?fileID=9197481963319205126&amp;guid=e498e834f90a07f40947b8df4a72eb82&amp;type=3#UILobbyItem" />
+    <Style src="project://database/Assets/UI/Common/UIPopupWindow.uss?fileID=7433441132597879392&amp;guid=a55c99512f8da0d4183de4e33942d7b2&amp;type=3#UIPopupWindow" />
+    <InGamePopupWindow style="flex-grow: 1;">
+        <engine:VisualElement style="flex-grow: 0; flex-direction: row; justify-content: flex-end; flex-shrink: 0; height: 36px;">
+            <engine:Button text="Refresh" name="RefreshButton" style="align-items: stretch;" />
+        </engine:VisualElement>
+        <engine:ScrollView name="ScrollView" style="max-height: 350px;">
+            <engine:Instance template="UILobbyItem" name="UILobbyItem" style="visibility: visible;" />
+            <engine:Instance template="UILobbyItem" name="UILobbyItem" />
+            <engine:Instance template="UILobbyItem" name="UILobbyItem" />
+            <engine:Instance template="UILobbyItem" name="UILobbyItem" />
+            <engine:Instance template="UILobbyItem" name="UILobbyItem" />
+        </engine:ScrollView>
+    </InGamePopupWindow>
+</engine:UXML>

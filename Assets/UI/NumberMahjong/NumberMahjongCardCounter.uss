@@ -1,0 +1,55 @@
+.CardCountText {
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    color: rgb(55, 55, 55);
+}
+
+.CardCount {
+    flex-grow: 0;
+    width: 24px;
+    height: 24px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    background-color: rgb(255, 255, 255);
+    transition-property: background-color;
+    transition-duration: 0.2s;
+}
+
+.CardDiscarded {
+    opacity: 0.2;
+}
+
+.CardCountColored .CardCountText {
+    color: rgb(255, 255, 255);
+}
+
+.InfoPanelItem {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    align-items: auto;
+    -unity-text-align: upper-center;
+}
